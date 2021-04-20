@@ -48,5 +48,5 @@ class Game():
 
 if __name__ == '__main__':
     game = Game()
-    pygame.font.init()
+    pygame.init() #el font es opcional, puede no ponerlo
     game.start()
